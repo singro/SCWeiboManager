@@ -5,6 +5,7 @@ A block style weibo manager build on top of official [Sina Weibo SDK](https://gi
 ####Feature
  * All response & weibo delegate are handled in SCWeiboManager.m to keep your code tidy & clean.
  * Access Token persistent stored with keychain
+ * Easily create your own request according to official API docs.
  * Besides, all features of original SDK are also available.
 
 ####Third Parties
@@ -52,7 +53,7 @@ A block style weibo manager build on top of official [Sina Weibo SDK](https://gi
         NSLog(@"failure:\n%@", [error description]);
     }];
   ```
-  
+
 ####License
 
 MIT
