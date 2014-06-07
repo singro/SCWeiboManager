@@ -1,6 +1,6 @@
 ###SCWeiboManager
 
-A block style weibo manager build on top of official Sina Weibo SDK to provide easy way to authorize and make http request.
+A block style weibo manager build on top of official [Sina Weibo SDK](https://github.com/sinaweibosdk/weibo_ios_sdk) to provide easy way to authorize and make http request.
 
 ####Feature
  * All response & weibo delegate are handled in SCWeiboManager.m to keep your code tidy & clean.
@@ -29,7 +29,7 @@ A block style weibo manager build on top of official Sina Weibo SDK to provide e
     return YES;
 }
   ```
-  * register app will be done when creating SCWeiboManager. (you can pre register with [WeiboSDK registerApp:] on your needs);
+ * register app will be done when creating SCWeiboManager. (you can pre register with [WeiboSDK registerApp:] on your needs);
 
 
 ####Example
@@ -52,6 +52,7 @@ A block style weibo manager build on top of official Sina Weibo SDK to provide e
         NSLog(@"failure:\n%@", [error description]);
     }];
   ```
+  
 ####License
 
 MIT
