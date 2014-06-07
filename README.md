@@ -1,20 +1,19 @@
-SCWeiboManager
-==============
+###SCWeiboManager
 
 A block style weibo manager build on top of official Sina Weibo SDK to provide easy way to authorize and make http request.
 
 
-ThirdParties
+####ThirdParties
  * [weibo_ios_sdk](https://github.com/sinaweibosdk/weibo_ios_sdk)
  * [JSONKit](https://github.com/johnezang/JSONKit)
  * [FXKeychain](https://github.com/nicklockwood/FXKeychain)
 
-Usage
+####Usage
  * Copy to your project
  * Add weibo URL scheme to both info.plist & application:openURL:sourceApplication:annotation:
  * filling your appKey
 
-Example
+####Example
 
   Authorize:
   ```
@@ -34,6 +33,6 @@ Example
         NSLog(@"failure:\n%@", [error description]);
     }];
   ```
-License
+####License
 
 MIT
